@@ -35,10 +35,10 @@ export default function Spotlight() {
                     </Navbar>
                     <Home>
                         <Leftside>
-                            <H2>Start a new project with <Min>Minimal</Min></H2>
+                            <H2>Start a <br /> new project with <Min>Minimal</Min></H2>
                             <P>The Starting point of your next project based on easy-to-customize Materials-UI &copy; helps you build apps faster and better. </P>
                             <P1><Dia src={Diao} alt="Icon" /><Under>Preview in Skecth cloud</Under></P1>
-                            <P3><Thun src={Thund} alt="Icon" />Live Preview </P3>
+                            <P3><Flash><Thun src={Thund} alt="Icon" /> </Flash>Live Preview </P3>
                             <Brands>
                                 <Brand> <Ico src={L1} alt="Icon" /> </Brand>
 								<Brand> <Ico src={L2} alt="Icon" /> </Brand>
@@ -63,13 +63,13 @@ const Fullbody = styled.section `
     background-size:cover;
 `;
 const Spotlighte = styled.div `
-    
+    height:100vh;
 `;
 const Navbar = styled.nav `
 	display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+	height:100px;
 `;
 const Left = styled.div `
 	width:50%;
@@ -78,6 +78,7 @@ const Left = styled.div `
 `;
 const Logo = styled.img `
 	width:8%;
+	cursor: pointer;
 `;
 const Span = styled.span `
 	color: blue;
@@ -127,36 +128,84 @@ const Arrow = styled.img `
 	width: 100%;
 	display:block;
 	filter:invert(1);
+	&:hover{
+		filter:hue-rotate(90deg);
+	}
 `;
 const Home = styled.div `
+	display:flex;
+	align-items:center;
 `;
 const Leftside = styled.div `
+	width:50%;
 `;
 const H2 = styled.h2 `
-`;
-const P = styled.p `
+	line-height: 1.2em;
+	margin-top: 50px;
+	width: 64%;
+    font-size: 72px;
+    font-weight: 600;
+    color: #fff;
 `;
 const Min = styled.span `
+	line-height: 1.2em;
+	font-size: 58px;
+    font-weight: 600;
+	color:#43d678;
 `;
-const P1 = styled.p `
+const P = styled.p `
+	color: #fff;
+    width: 75%;
+    padding: 36px 0;
+`;
+const P1 = styled.div `
+	display: flex;
+	align-items:center;
 `;
 const Dia = styled.img `
+	
 `;
 const Under = styled.span `
+	margin-left: 8px;
+    color: #fff;
+    text-decoration: underline;
 `;
 const P3 = styled.p `
+	display: flex;
+	align-items:center;
+	background: #4eac56;
+    padding: 10px;
+    width: 22%;
+    border-radius: 8px;
+    margin: 30px 0;
+    color: #fff;
+}
+`;
+const Flash = styled.div `
+	width: 20%
 `;
 const Thun = styled.img `
+	width:100%;
+	display: block;
+	filter:invert(1);
 `;
 const Brands = styled.ul `
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
 `;
 const Brand = styled.li `
+	cursor:pointer;
 `;
 const Ico = styled.img `
 `; 
 const Rightside =styled.div `
+	width:50%;
 `;
 const Bgimg = styled.div `
 `;
 const Hero = styled.img `
+	width:100%;	
+	opacity:0.1;
 `;
