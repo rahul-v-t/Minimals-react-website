@@ -142,14 +142,14 @@ const Leftside = styled.div `
 const H2 = styled.h2 `
 	line-height: 1.2em;
 	margin-top: 50px;
-	width: 64%;
+	width: 70%;
     font-size: 72px;
     font-weight: 600;
     color: #fff;
 `;
 const Min = styled.span `
 	line-height: 1.2em;
-	font-size: 58px;
+	font-size: 72px;
     font-weight: 600;
 	color:#43d678;
 `;
