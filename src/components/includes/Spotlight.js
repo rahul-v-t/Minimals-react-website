@@ -169,6 +169,7 @@ const Under = styled.span `
 	margin-left: 8px;
     color: #fff;
     text-decoration: underline;
+	cursor:pointer;
 `;
 const P3 = styled.p `
 	display: flex;
@@ -179,7 +180,7 @@ const P3 = styled.p `
     border-radius: 8px;
     margin: 30px 0;
     color: #fff;
-}
+	cursor:pointer;
 `;
 const Flash = styled.div `
 	width: 20%
