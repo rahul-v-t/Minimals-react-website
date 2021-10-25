@@ -4,6 +4,7 @@ import Cards from '../includes/Cards';
 import Huge from '../includes/Huge';
 import Dark from '../includes/Dark';
 import Theme from '../includes/Theme';
+import Pages from '../includes/Pages';
 
 export default function Main() {
     return (
@@ -13,6 +14,7 @@ export default function Main() {
            <Huge />
            <Dark />
            <Theme />
+           <Pages />
         </>
     )
 }
