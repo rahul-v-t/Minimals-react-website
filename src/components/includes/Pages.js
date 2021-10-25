@@ -59,7 +59,7 @@ export default function Dark() {
     )
 }
 const Container = styled.section `
-    
+    margin-bottom: 60%;
 `;
 const Main = styled.div `
     padding-top: 5%;
@@ -76,16 +76,15 @@ const H2 = styled.h2 `
     width:50%;
 `;
 const Bottom = styled.div `
-    position:absolute;
-    top: 105px;
-    left: 30px;
-    z-index: 1;
+    
 `;
 const Images = styled.div `
     
 `;
 const Back = styled.div `
     position:absolute;
+    top: 50px;
+    z-index: -1;
 `;
 const Gri = styled.img `
     width:100%;

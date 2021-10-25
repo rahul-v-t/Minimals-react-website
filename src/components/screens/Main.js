@@ -5,6 +5,7 @@ import Huge from '../includes/Huge';
 import Dark from '../includes/Dark';
 import Theme from '../includes/Theme';
 import Pages from '../includes/Pages';
+import Plan from '../includes/Plan';
 
 export default function Main() {
     return (
@@ -15,6 +16,7 @@ export default function Main() {
            <Dark />
            <Theme />
            <Pages />
+           <Plan />
         </>
     )
 }
