@@ -29,16 +29,22 @@ const Main = styled.div `
     margin-top: 300px;
 `;
 const Left = styled.div `
-    width:50%;
+    width: 42%;
 `;
 const Small = styled.p `
     color: #8d98a2;
 `;
 const H2 = styled.h2 `
     font-size: 62px;
-    width: 60%;
+    width: 67%;
     padding: 30px 0;
     font-weight: 600;
+    @media all and (max-width:1280px){
+		width:86%;
+	}
+    @media all and (max-width:1080px){
+		font-size: 56px;
+	}
 `;
 const P = styled.p `
     color: #8d98a2;
@@ -46,14 +52,18 @@ const P = styled.p `
     padding-bottom: 40px;
 `;
 const Right = styled.div `
-    width:50%;
+    width:45%;
     display:flex;
     position:relative;
+    @media all and (max-width:1080px){
+		width:42%;
+	}
 `;
 const Button = styled.span `
     padding: 12px 24px;
     border-radius: 8px;
     border: 1px solid #8d98a2;
+    cursor:pointer;
 `;
 const Imgcon1 = styled.div `
     transform:skewY(15deg);  

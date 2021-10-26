@@ -125,6 +125,7 @@ const Ul = styled.ul `
 `;
 const Li = styled.li `
     margin-bottom:35px;
+    cursor:pointer;
 `;
 const Div = styled.div `
     width:15px;

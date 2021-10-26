@@ -146,6 +146,9 @@ export default function Cards() {
                     <Pbutton>Choose Plan</Pbutton>
                 </Box3>
             </Box>
+            <H4>Still have questions?</H4>
+            <P3>Please Describe your case to receive the most accurative advice.</P3>
+            <P2>Contact Us</P2>
         </>
     )
 }
@@ -174,6 +177,10 @@ const Box = styled.div `
     justify-content:space-between;
     align-items:center;
     padding: 100px;
+    @media all and (max-width:1080px){
+		flex-wrap:wrap;
+        justify-content:center;
+	}
 `;
 const Box1 = styled.div `
     width:28%;
@@ -181,6 +188,14 @@ const Box1 = styled.div `
     box-shadow: -15px 30px 30px 20px rgb(0 0 0 /10%);
     border-radius: 14px;
     padding: 30px;
+    @media all and (max-width:1280px){
+		width:32%;
+       
+	}
+    @media all and (max-width:1080px){
+		width:40%;
+        margin-right:20px;
+	}
 `;
 const Box2 = styled.div `
     width:28%;
@@ -188,6 +203,14 @@ const Box2 = styled.div `
     box-shadow: -15px 30px 30px 20px rgb(0 0 0 /10%);
     padding: 30px;
     border-radius: 14px;
+    @media all and (max-width:1280px){
+		width:32%;
+	}
+    @media all and (max-width:1080px){
+		width:40%;
+        margin-left:20px;
+        margin-bottom:20px;
+	}
 `;
 const Box3 = styled.div `
     background:#fff;
@@ -195,6 +218,12 @@ const Box3 = styled.div `
     width:28%;
     border-radius: 14px;
     padding: 30px;
+    @media all and (max-width:1280px){
+		width:32%;
+	}
+    @media all and (max-width:1080px){
+		width:40%;
+	}
 `;
 const H3 = styled.h3 `
     font-size: 32px;
@@ -264,4 +293,34 @@ const Pbutton = styled.p `
     &:hover{
         color:#fff;
         background:#4eac56;
+    }
+`;
+const H4 = styled.h3 `
+    text-align:center;
+    font-size: 32px;
+    font-weight: 600;
+`;
+const P3 = styled.p `
+    text-align:center;
+    color: #c1c1c1;
+    padding:30px;
+`;
+const P2 = styled.p `
+    text-align:center;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 40px;
+    cursor:pointer;
+    color:#fff;
+    background:#4eac56;
+    width: 12%;
+    margin: 0 auto;
+    @media all and (max-width:1280px){
+		width:14%;
+	}
+    @media all and (max-width:1080px){
+		width:16%;
+	}
+    
 `;

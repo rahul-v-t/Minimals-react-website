@@ -74,6 +74,12 @@ const H2 = styled.h2 `
     padding: 10px 0;
     font-weight: 600;
     width:50%;
+    @media all and (max-width:1280px){
+		width:55%;
+	}
+    @media all and (max-width:1080px){
+		font-size: 46px;
+	}
 `;
 const Bottom = styled.div `
     

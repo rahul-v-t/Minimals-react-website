@@ -6,6 +6,7 @@ import Dark from '../includes/Dark';
 import Theme from '../includes/Theme';
 import Pages from '../includes/Pages';
 import Plan from '../includes/Plan';
+import Footer from '../includes/Footer';
 
 export default function Main() {
     return (
@@ -17,6 +18,7 @@ export default function Main() {
            <Theme />
            <Pages />
            <Plan />
+           <Footer />
         </>
     )
 }

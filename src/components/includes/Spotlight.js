@@ -63,7 +63,7 @@ const Fullbody = styled.section `
     background-size:cover;
 `;
 const Spotlighte = styled.div `
-    height:100vh;
+    padding-bottom: 90px;
 `;
 const Navbar = styled.nav `
 	display: flex;
@@ -75,10 +75,16 @@ const Left = styled.div `
 	width:50%;
 	display:flex;
 	align-items:center;
+	@media all and (max-width:1080px){
+		width:40%;
+	}
 `;
 const Logo = styled.img `
 	width:8%;
 	cursor: pointer;
+	@media all and (max-width:1080px){
+		width:16%;
+	}
 `;
 const Span = styled.span `
 	color: blue;
@@ -88,7 +94,7 @@ const Span = styled.span `
     margin-left: 6px;
 `;
 const Right = styled.div `
-	width:50%;
+	
 `;
 const Lists = styled.ul `
 	display: flex;
@@ -115,6 +121,7 @@ const Liste = styled.li `
 	display:flex;
 	align-items:center;
 	width: 12%;
+	margin-right: 40px;
 	color:#fff;
 	cursor:pointer;
 	&:hover{
@@ -142,16 +149,25 @@ const Leftside = styled.div `
 const H2 = styled.h2 `
 	line-height: 1.2em;
 	margin-top: 50px;
-	width: 70%;
+	width: 75%;
     font-size: 72px;
     font-weight: 600;
     color: #fff;
+	@media all and (max-width:1280px){
+		width: 90%;
+	}
+	@media all and (max-width:1080px){
+		font-size: 62px;
+	}
 `;
 const Min = styled.span `
 	line-height: 1.2em;
 	font-size: 72px;
     font-weight: 600;
 	color:#43d678;
+	@media all and (max-width:1080px){
+		font-size: 62px;
+	}
 `;
 const P = styled.p `
 	color: #fff;
@@ -176,14 +192,17 @@ const P3 = styled.p `
 	align-items:center;
 	background: #4eac56;
     padding: 10px;
-    width: 22%;
+    width: 30%;
     border-radius: 8px;
     margin: 30px 0;
     color: #fff;
 	cursor:pointer;
+	@media all and (max-width:1080px){
+		width: 32%;
+	}
 `;
 const Flash = styled.div `
-	width: 20%
+	width: 20%;
 `;
 const Thun = styled.img `
 	width:100%;
@@ -198,6 +217,9 @@ const Brands = styled.ul `
 `;
 const Brand = styled.li `
 	cursor:pointer;
+	@media all and (max-width:1280px){
+		margin-right: 10px;
+	}
 `;
 const Ico = styled.img `
 `; 

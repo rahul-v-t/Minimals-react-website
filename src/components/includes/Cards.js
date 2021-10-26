@@ -49,11 +49,22 @@ const Box = styled.div `
     justify-content:space-between;
     align-items:center;
     padding: 100px;
+    @media all and (max-width:1080px){
+		flex-wrap: wrap;
+        justify-content: center;
+	}
 `;
 const Box1 = styled.div `
     width:28%;
     background:#f4f6f8;
     border-radius: 14px;
+    @media all and (max-width:1280px){
+		width:32%;
+	}
+    @media all and (max-width:1080px){
+		width: 40%;
+        margin-right: 20px;
+	}
 `;
 const Box2 = styled.div `
     width:28%;
@@ -62,6 +73,14 @@ const Box2 = styled.div `
     padding: 30px;
     border-radius: 14px;
     transform: translateY(-32px);
+    @media all and (max-width:1280px){
+		width:32%;
+	}
+    @media all and (max-width:1080px){
+		width: 40%;
+        margin-left: 20px;
+        transform: none;
+	}
 `;
 const Out = styled.div `
     margin: 0 auto;
@@ -74,6 +93,14 @@ const Box3 = styled.div `
     border-radius: 14px;
     transform: translateY(10px);
     padding: 30px;
+    @media all and (max-width:1280px){
+		width:32%;
+	}
+    @media all and (max-width:1080px){
+		width: 40%;
+        transform: none;
+        margin-top:20px;
+	}
 `;
 const Logcon = styled.div `
     margin: 0 auto;
@@ -103,4 +130,7 @@ const P3 = styled.p `
     width: 60%;
     margin: 0 auto;
     padding: 40px 0;
+    @media all and (max-width:1080px){
+		width: 72%;
+	}
 `;
