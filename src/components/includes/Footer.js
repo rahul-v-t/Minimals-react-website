@@ -63,6 +63,14 @@ const H2 = styled.h2 `
     @media all and (max-width:1080px){
 		font-size:42px;
 	}
+    @media all and (max-width:980px){
+		width:70%;
+        font-size:36px;
+	}
+    @media all and (max-width:768px){
+		width:75%;
+        font-size:30px;
+	}
 `;
 const P = styled.p `
     padding: 13px 2px;
@@ -73,6 +81,9 @@ const P = styled.p `
     width: 18%;
     @media all and (max-width:1080px){
 		width:24%;
+	}
+    @media all and (max-width:768px){
+		width:32%;
 	}
 `;
 const Logcon = styled.div `

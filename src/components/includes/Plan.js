@@ -196,6 +196,13 @@ const Box1 = styled.div `
 		width:40%;
         margin-right:20px;
 	}
+    @media all and (max-width:980px){
+		width:60%;
+        margin-right:0;
+	}
+    @media all and (max-width:768px){
+		width:75%;
+	}
 `;
 const Box2 = styled.div `
     width:28%;
@@ -211,6 +218,13 @@ const Box2 = styled.div `
         margin-left:20px;
         margin-bottom:20px;
 	}
+    @media all and (max-width:980px){
+		width:60%;
+        margin:20px 0;
+	}
+    @media all and (max-width:768px){
+		width:75%;
+	}
 `;
 const Box3 = styled.div `
     background:#fff;
@@ -223,6 +237,12 @@ const Box3 = styled.div `
 	}
     @media all and (max-width:1080px){
 		width:40%;
+	}
+    @media all and (max-width:980px){
+		width:60%;
+	}
+    @media all and (max-width:768px){
+		width:75%;
 	}
 `;
 const H3 = styled.h3 `
@@ -322,5 +342,10 @@ const P2 = styled.p `
     @media all and (max-width:1080px){
 		width:16%;
 	}
-    
+    @media all and (max-width:980px){
+		width:20%;
+	}
+    @media all and (max-width:768px){
+		width:25%;
+	}
 `;

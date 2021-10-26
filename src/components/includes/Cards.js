@@ -65,6 +65,13 @@ const Box1 = styled.div `
 		width: 40%;
         margin-right: 20px;
 	}
+    @media all and (max-width:980px){
+		width:53%;
+        margin-right:0;
+	}
+    @media all and (max-width:768px){
+		width:80%;
+	}
 `;
 const Box2 = styled.div `
     width:28%;
@@ -80,6 +87,14 @@ const Box2 = styled.div `
 		width: 40%;
         margin-left: 20px;
         transform: none;
+	}
+    @media all and (max-width:980px){
+		width:53%;
+        margin-left:0;
+        margin:20px 0;
+	}
+    @media all and (max-width:768px){
+		width:80%;
 	}
 `;
 const Out = styled.div `
@@ -100,6 +115,13 @@ const Box3 = styled.div `
 		width: 40%;
         transform: none;
         margin-top:20px;
+	}
+    @media all and (max-width:980px){
+		width:53%;
+        margin-top:0;
+	}
+    @media all and (max-width:768px){
+		width:80%;
 	}
 `;
 const Logcon = styled.div `

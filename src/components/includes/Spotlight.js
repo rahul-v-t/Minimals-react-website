@@ -82,7 +82,7 @@ const Left = styled.div `
 const Logo = styled.img `
 	width:8%;
 	cursor: pointer;
-	@media all and (max-width:1080px){
+	@media all and (max-width:980px){
 		width:16%;
 	}
 `;
@@ -94,7 +94,9 @@ const Span = styled.span `
     margin-left: 6px;
 `;
 const Right = styled.div `
-	
+	@media all and (max-width:768px){
+		display:none;
+	}
 `;
 const Lists = styled.ul `
 	display: flex;
@@ -145,6 +147,9 @@ const Home = styled.div `
 `;
 const Leftside = styled.div `
 	width:50%;
+	@media all and (max-width:980px){
+		width:100%;
+	}
 `;
 const H2 = styled.h2 `
 	line-height: 1.2em;
@@ -159,6 +164,16 @@ const H2 = styled.h2 `
 	@media all and (max-width:1080px){
 		font-size: 62px;
 	}
+	@media all and (max-width:980px){
+		font-size: 54px;
+		width:95%;
+	}
+	@media all and (max-width:768px){
+		width:100%;
+		font-size:48px;
+		text-align:center;
+		margin:0 auto;
+	}
 `;
 const Min = styled.span `
 	line-height: 1.2em;
@@ -167,6 +182,12 @@ const Min = styled.span `
 	color:#43d678;
 	@media all and (max-width:1080px){
 		font-size: 62px;
+	}
+	@media all and (max-width:980px){
+		font-size: 54px;
+	}
+	@media all and (max-width:768px){
+		font-size:48px;
 	}
 `;
 const P = styled.p `
@@ -181,7 +202,7 @@ const P1 = styled.div `
 const Dia = styled.img `
 	
 `;
-const Under = styled.span `
+const Under = styled.p `
 	margin-left: 8px;
     color: #fff;
     text-decoration: underline;
@@ -199,6 +220,9 @@ const P3 = styled.p `
 	cursor:pointer;
 	@media all and (max-width:1080px){
 		width: 32%;
+	}
+	@media all and (max-width:980px){
+		width:42%;
 	}
 `;
 const Flash = styled.div `
@@ -225,6 +249,9 @@ const Ico = styled.img `
 `; 
 const Rightside =styled.div `
 	width:50%;
+	@media all and (max-width:768px){
+		display:none;
+	}
 `;
 const Bgimg = styled.div `
 `;

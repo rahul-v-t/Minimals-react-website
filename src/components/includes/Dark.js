@@ -68,11 +68,20 @@ const Scon = styled.div `
     right: 120px;
     top:200px;
     width:100%;
+    @media all and (max-width:980px){
+		top:142px;
+	}
+    @media all and (max-width:768px){
+		right:90px;
+	}
 `;
 const Span = styled.p `
     color:#808b98;
     margin-top: 70%;
     margin-left: 20%;
+    @media all and (max-width:768px){
+		font-size:14px;
+	}
 `;
 const H2 = styled.h2 `
     color:#fff;

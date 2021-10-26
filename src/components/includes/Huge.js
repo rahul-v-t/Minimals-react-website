@@ -27,12 +27,24 @@ export default function Huge() {
 const Main = styled.div `
     display: flex;
     margin-top: 300px;
+    @media all and (max-width:980px){
+		margin-top:0;
+	}
 `;
 const Left = styled.div `
     width: 42%;
+    @media all and (max-width:980px){
+		margin:0 auto;
+	}
+    @media all and (max-width:768px){
+		width:60%;
+	}
 `;
 const Small = styled.p `
     color: #8d98a2;
+    @media all and (max-width:980px){
+		text-align:center;
+	}
 `;
 const H2 = styled.h2 `
     font-size: 62px;
@@ -45,11 +57,23 @@ const H2 = styled.h2 `
     @media all and (max-width:1080px){
 		font-size: 56px;
 	}
+    @media all and (max-width:980px){
+		text-align:center;
+        font-size:48px;
+        width:100%;
+	}
+    @media all and (max-width:768px){
+		font-size:46px;
+	}
 `;
 const P = styled.p `
     color: #8d98a2;
     width:55%;
     padding-bottom: 40px;
+    @media all and (max-width:980px){
+		text-align:center;
+        width:100%;
+	}
 `;
 const Right = styled.div `
     width:45%;
@@ -58,12 +82,16 @@ const Right = styled.div `
     @media all and (max-width:1080px){
 		width:42%;
 	}
+    @media all and (max-width:980px){
+		display:none;
+	}
 `;
-const Button = styled.span `
+const Button = styled.p `
     padding: 12px 24px;
     border-radius: 8px;
     border: 1px solid #8d98a2;
     cursor:pointer;
+    text-align:center;
 `;
 const Imgcon1 = styled.div `
     transform:skewY(15deg);  

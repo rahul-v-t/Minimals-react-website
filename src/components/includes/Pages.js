@@ -80,6 +80,14 @@ const H2 = styled.h2 `
     @media all and (max-width:1080px){
 		font-size: 46px;
 	}
+    @media all and (max-width:980px){
+		font-size:42px;
+        width:66%;
+	}
+    @media all and (max-width:768px){
+		font-size:38px;
+        width:70%;
+	}
 `;
 const Bottom = styled.div `
     
