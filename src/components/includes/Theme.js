@@ -70,6 +70,9 @@ const H2 = styled.h2 `
     color:#212b36;
     padding: 10px;
     font-weight: 600;
+    @media all and (max-width:480px){
+		font-size:32px;
+	}
 `;
 const P = styled.p `
     text-align:center;

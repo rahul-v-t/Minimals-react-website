@@ -33,11 +33,12 @@ const Main = styled.div `
 `;
 const Left = styled.div `
     width: 42%;
-    @media all and (max-width:980px){
+    @media all and (max-width:1080px){
 		margin:0 auto;
+        width:60%;
 	}
-    @media all and (max-width:768px){
-		width:60%;
+    @media all and (max-width:980px){
+		width:76%;
 	}
 `;
 const Small = styled.p `
@@ -63,7 +64,13 @@ const H2 = styled.h2 `
         width:100%;
 	}
     @media all and (max-width:768px){
-		font-size:46px;
+		font-size:38px;
+	}
+    @media all and (max-width:640px){
+		font-size:30px;
+	}
+    @media all and (max-width:480px){
+		font-size:22px;
 	}
 `;
 const P = styled.p `
@@ -92,6 +99,14 @@ const Button = styled.p `
     border: 1px solid #8d98a2;
     cursor:pointer;
     text-align:center;
+    width:50%;
+    margin: 0 auto;
+    @media all and (max-width:980px){
+		width: 70%;
+	}
+    @media all and (max-width:480px){
+		width:85%;
+	}
 `;
 const Imgcon1 = styled.div `
     transform:skewY(15deg);  

@@ -164,6 +164,12 @@ const Heading = styled.h2 `
     font-size: 42px;
     font-weight: 600;
     padding: 30px 0;
+    @media all and (max-width:768px){
+		font-size:32px;
+	}
+    @media all and (max-width:480px){
+		font-size:26px;
+	}
 `;
 const P = styled.p `
     color: #c1c1c1;
@@ -180,6 +186,9 @@ const Box = styled.div `
     @media all and (max-width:1080px){
 		flex-wrap:wrap;
         justify-content:center;
+	}
+    @media all and (max-width:480px){
+		padding:25px;
 	}
 `;
 const Box1 = styled.div `
@@ -203,6 +212,9 @@ const Box1 = styled.div `
     @media all and (max-width:768px){
 		width:75%;
 	}
+    @media all and (max-width:640px){
+		width:95%;
+	}
 `;
 const Box2 = styled.div `
     width:28%;
@@ -225,6 +237,9 @@ const Box2 = styled.div `
     @media all and (max-width:768px){
 		width:75%;
 	}
+    @media all and (max-width:640px){
+		width:95%;
+	}
 `;
 const Box3 = styled.div `
     background:#fff;
@@ -243,6 +258,9 @@ const Box3 = styled.div `
 	}
     @media all and (max-width:768px){
 		width:75%;
+	}
+    @media all and (max-width:640px){
+		width:95%;
 	}
 `;
 const H3 = styled.h3 `
@@ -347,5 +365,11 @@ const P2 = styled.p `
 	}
     @media all and (max-width:768px){
 		width:25%;
+	}
+    @media all and (max-width:640px){
+		width:32%;
+	}
+    @media all and (max-width:480px){
+		width:40%;
 	}
 `;

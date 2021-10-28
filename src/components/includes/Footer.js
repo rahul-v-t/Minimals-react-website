@@ -71,6 +71,12 @@ const H2 = styled.h2 `
 		width:75%;
         font-size:30px;
 	}
+    @media all and (max-width:640px){
+		font-size:28px;
+	}
+    @media all and (max-width:480px){
+		font-size:20px;
+	}
 `;
 const P = styled.p `
     padding: 13px 2px;
@@ -82,14 +88,30 @@ const P = styled.p `
     @media all and (max-width:1080px){
 		width:24%;
 	}
+    @media all and (max-width:980px){
+		width:28%;
+	}
     @media all and (max-width:768px){
 		width:32%;
+	}
+    @media all and (max-width:640px){
+		width:40%;
+        margin-bottom:10px;
+	}
+    @media all and (max-width:480px){
+		width:53%;
 	}
 `;
 const Logcon = styled.div `
     width: 5%;
     padding-top: 30px;
     margin: 0 auto;
+    @media all and (max-width:640px){
+		width:8%;
+	}
+    @media all and (max-width:480px){
+		width:10%;
+	}
 `;
 const Log = styled.img `
     width:100%;

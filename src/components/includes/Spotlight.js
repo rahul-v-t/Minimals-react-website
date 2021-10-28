@@ -170,9 +170,15 @@ const H2 = styled.h2 `
 	}
 	@media all and (max-width:768px){
 		width:100%;
-		font-size:48px;
+		font-size:36px;
 		text-align:center;
 		margin:0 auto;
+	}
+	@media all and (max-width:480px){
+		font-size:26px;
+	}
+	@media all and (max-width:360px){
+		font-size:20px;
 	}
 `;
 const Min = styled.span `
@@ -187,13 +193,26 @@ const Min = styled.span `
 		font-size: 54px;
 	}
 	@media all and (max-width:768px){
-		font-size:48px;
+		font-size:36px;
+	}
+	@media all and (max-width:480px){
+		font-size:26px;
+	}
+	@media all and (max-width:360px){
+		font-size:20px;
 	}
 `;
 const P = styled.p `
 	color: #fff;
     width: 75%;
     padding: 36px 0;
+	@media all and (max-width:768px){
+		margin: 0 auto;
+    	text-align: center;
+	}
+	@media all and (max-width:360px){
+		width:80%;
+	}
 `;
 const P1 = styled.div `
 	display: flex;
@@ -223,6 +242,9 @@ const P3 = styled.p `
 	}
 	@media all and (max-width:980px){
 		width:42%;
+	}
+	@media all and (max-width:360px){
+		width:50%;
 	}
 `;
 const Flash = styled.div `

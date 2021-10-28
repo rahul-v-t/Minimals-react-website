@@ -88,6 +88,13 @@ const H2 = styled.h2 `
 		font-size:38px;
         width:70%;
 	}
+    @media all and (max-width:640px){
+        font-size:30px;
+		width:90%;
+	}
+    @media all and (max-width:480px){
+		font-size:24px;
+	}
 `;
 const Bottom = styled.div `
     

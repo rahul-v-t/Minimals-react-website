@@ -89,6 +89,9 @@ const H2 = styled.h2 `
     font-size: 36px;
     padding: 20px 0;
     font-weight: 600;
+    @media all and (max-width:480px){
+		font-size:24px;
+	}
 `;
 const P = styled.p `
     color:#fff;

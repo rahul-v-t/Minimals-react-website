@@ -43,6 +43,12 @@ const Heading = styled.h1 `
     font-size: 42px;
     font-weight: 600;
     padding: 30px 0;
+    @media all and (max-width:640px){
+		font-size:36px;
+	}
+    @media all and (max-width:480px){
+		font-size:28px;
+	}
 `;
 const Box = styled.div `
     display:flex;
@@ -52,6 +58,9 @@ const Box = styled.div `
     @media all and (max-width:1080px){
 		flex-wrap: wrap;
         justify-content: center;
+	}
+    @media all and (max-width:480px){
+		padding:50px;
 	}
 `;
 const Box1 = styled.div `
@@ -72,6 +81,10 @@ const Box1 = styled.div `
     @media all and (max-width:768px){
 		width:80%;
 	}
+    @media all and (max-width:640px){
+		width:90%;
+	}
+    
 `;
 const Box2 = styled.div `
     width:28%;
@@ -96,6 +109,10 @@ const Box2 = styled.div `
     @media all and (max-width:768px){
 		width:80%;
 	}
+    @media all and (max-width:640px){
+		width:90%;
+	}
+    
 `;
 const Out = styled.div `
     margin: 0 auto;
@@ -122,6 +139,9 @@ const Box3 = styled.div `
 	}
     @media all and (max-width:768px){
 		width:80%;
+	}
+    @media all and (max-width:640px){
+		width:90%;
 	}
 `;
 const Logcon = styled.div `
